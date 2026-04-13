@@ -5,7 +5,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/@thinklet/mcp.svg)](https://www.npmjs.com/package/@thinklet/mcp)
 
-Thinklet is an open spec for single-file React apps that live inside AI conversations. The [Thinklet MCP server](./mcp) connects Claude (and any MCP-compatible tool) to the Thinklet catalog — 12,000+ apps built by 5,000+ creators, discoverable in one message.
+Thinklet is an open spec for single-file React apps that live inside AI conversations. The [Thinklet MCP server](./mcp) connects Claude (and any MCP-compatible tool) to the Thinklet catalog — a growing library of apps discoverable in one message.
 
 **The format and MCP are MIT licensed. The cloud platform at [thinklet.io](https://thinklet.io) adds persistence, social features, multi-model support, RAG, private sharing, and team workspaces.**
 
