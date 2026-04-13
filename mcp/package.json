@@ -1,0 +1,31 @@
+{
+  "name": "@thinklet/mcp",
+  "version": "1.0.0",
+  "description": "Thinklet MCP server — connect Claude to the Thinklet catalog",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "thinklet-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "install-claude": "node scripts/install.js"
+  },
+  "keywords": ["mcp", "thinklet", "claude", "ai", "apps"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
